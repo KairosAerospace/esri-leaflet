@@ -7,5 +7,5 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('bevanhunt:leaflet', 'client');
-  api.add_files(['esri-leaflet.js'], 'client');
+  api.add_files(['esri-leaflet.js', 'esri-leaflet-renderers.js'], 'client');
 });
