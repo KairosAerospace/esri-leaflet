@@ -6,6 +6,6 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('bevanhunt:leaflet', 'client');
+  api.use('kairos:leaflet-stack', 'client');
   api.add_files(['esri-leaflet.js'], 'client');
 });
