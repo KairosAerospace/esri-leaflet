@@ -1,6 +1,6 @@
 Package.describe({
-  summary: "See https://github.com/Esri/esri-leaflet/tree/v2.0.0-beta.7",
-  version: '2.0.0b7',
+  summary: "See https://github.com/Esri/esri-leaflet/tree/v1.0.2a",
+  version: '1.0.2',
   name: 'kairos:esri-leaflet',
   git: 'https://github.com/KairosAerospace/esri-leaflet'
 });
