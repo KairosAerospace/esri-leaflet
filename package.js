@@ -5,7 +5,7 @@ Package.describe({
   git: 'https://github.com/KairosAerospace/esri-leaflet'
 });
 
-Package.on_use(function (api) {
-  api.use('kairos:leaflet-stack', 'client');
-  api.add_files(['esri-leaflet.js', 'esri-leaflet-renderers.js'], 'client');
+Package.onUse(function (api) {
+  api.use('kairos:leaflet-stack', 'client', {unordered: false});
+  api.addFiles(['esri-leaflet.js', 'esri-leaflet-renderers.js'], 'client');
 });
